@@ -20,9 +20,9 @@ class UsersTableSeeder extends Seeder
 
         // Insert a default user
         DB::table('users')->insert([
-            'name' => 'Administrator',
+            'name' => 'administarator',
             'email' => 'admin@gmail.com',
-            'password' => Hash::make('admin123'),
+            'password' => Hash::make('admin1234'),
         ]);
 
         // Insert multiple random users using the factory
